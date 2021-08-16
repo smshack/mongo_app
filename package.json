@@ -1,0 +1,30 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "몽고 테스트 앱 만들기",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server/server.js",
+    "dev": "nodemon --ignore client.js server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smshack/mongo_app.git"
+  },
+  "keywords": [
+    "mongo"
+  ],
+  "author": "smshack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smshack/mongo_app/issues"
+  },
+  "homepage": "https://github.com/smshack/mongo_app#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "mongoose": "^5.13.7"
+  }
+}
